@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdfpreflight version="18.0">
+	<package>
+		<id3>b5ba7340ad252106ddb075687a1d3050</id3>
+		<pdfxoutintentlist>
+		</pdfxoutintentlist>
+		<iccprofilelist>
+		</iccprofilelist>
+		<ccpolicies>
+		</ccpolicies>
+		<occdsetups>
+		</occdsetups>
+		<curves>
+		</curves>
+		<fspolicies>
+		</fspolicies>
+		<resources>
+		</resources>
+		<variables>
+		</variables>
+		<conditions>
+		</conditions>
+		<rules>
+		</rules>
+		<rulesets>
+		</rulesets>
+		<fixups>
+			<fixup>
+				<id1>F88789eac4bec9d445eca7e4bdb372b8b</id1>
+				<id2>Ffc90a7ab7f0429396777bf15d5e7e4e5</id2>
+				<id3>7a8bc6b6a14c54eaa68803d980f21a54</id3>
+				<id4>22fd3c3b438a6e7aa54388bd545d84e2</id4>
+				<id5>Fbe28f1652df4775d5daf3f157d9e3960</id5>
+				<name>1.トンボ類および裁ち落としサイズの外側にあるその他のオブジェクトを削除</name>
+				<comment>すべてのトンボ類 (Acrobat で作成されたものを含む) を削除します。このフィックスアップには、裁ち落としサイズ (存在しない場合は仕上がりサイズ) の外側にある特定のオブジェクトを削除したり、Acrobat で作成されたトンボ類のみを削除したりするオプションがあります。</comment>
+				<flags user_units="0" scope="16" edit="1" visible="1"></flags>
+				<creation>D:20181128192748+09&apos;00&apos;</creation>
+				<modification>D:20230131021024+09&apos;00&apos;</modification>
+				<fcfgs>
+					<fcfg>
+						<ffeat>RemovePrinterMarks</ffeat>
+						<fparams>
+							<fparam>All</fparam>
+							<fparam>All</fparam>
+						</fparams>
+					</fcfg>
+				</fcfgs>
+				<reportFailed></reportFailed>
+				<proc_steps_options></proc_steps_options>
+			</fixup>
+			<fixup>
+				<id1>F74c0d0924648c6a9c6132e308cd6c390</id1>
+				<id2>F0d9d9a5f4e1693026ce2553803521969</id2>
+				<id3>11051c84c639ee759282e7766daa4cc1</id3>
+				<id4>7c767e3c88800999e83e0dfa3afd05c9</id4>
+				<id5>F0d9d9a5f4e1693026ce2553803521969</id5>
+				<name>FFF_Add_fixedtoPDFfilenameafterprocessing</name>
+				<comment>FFF_Add_fixedtoPDFfilenameafterprocessing</comment>
+				<flags user_units="0" scope="16" edit="1" visible="1" dict="1"></flags>
+				<creation>D:20220412004948+09&apos;00&apos;</creation>
+				<modification>D:20220412004948+09&apos;00&apos;</modification>
+				<fcfgs>
+					<fcfg>
+						<ffeat>AddSuffixToProcFile</ffeat>
+						<fparams>
+							<fparam>_fixed</fparam>
+						</fparams>
+					</fcfg>
+					<fcfg>
+						<ffeat></ffeat>
+						<fparams>
+						</fparams>
+					</fcfg>
+				</fcfgs>
+				<reportFailed></reportFailed>
+				<proc_steps_options></proc_steps_options>
+			</fixup>
+			<fixup>
+				<id1>Fb02d575ca2f2bca44575949fd1e0791e</id1>
+				<id2>Fc2549eef0905a7f575d617211e54f35f</id2>
+				<id3>3c4e93c20f397f72d1ec37c2e015e24f</id3>
+				<id4>998837b164fdf37c4f73f7b51cadfcbd</id4>
+				<id5>F051b947bed867b06d73c2caef37bfbae</id5>
+				<name>2.裁ち落としサイズをトリミングサイズに設定</name>
+				<comment></comment>
+				<flags user_units="1" scope="16" edit="1" visible="1"></flags>
+				<creation>D:20221227053511+09&apos;00&apos;</creation>
+				<modification>D:20221227053544+09&apos;00&apos;</modification>
+				<fcfgs>
+					<fcfg>
+						<ffeat>SetPageBox</ffeat>
+						<fparams>
+							<fparam>CropBox</fparam>
+							<fparam>RelativeToBleedBox</fparam>
+							<fparam>0</fparam>
+							<fparam>0</fparam>
+							<fparam>0</fparam>
+							<fparam>0</fparam>
+							<fparam>pt</fparam>
+							<fparam>Always</fparam>
+							<fparam>allPages</fparam>
+						</fparams>
+					</fcfg>
+				</fcfgs>
+				<reportFailed></reportFailed>
+				<proc_steps_options></proc_steps_options>
+			</fixup>
+		</fixups>
+		<fixupsets>
+			<fixupset>
+				<id1>Ua806691f791544e837308dcb35e11076</id1>
+				<id2>Ua29b5fa06be8292cdccea3c461a78164</id2>
+				<id3>dfca849e5510807d099b41dc29a69839</id3>
+				<id4>0de0dec985cd71d402f9feb02af86cbb</id4>
+				<id5>Uf1310935ae5be5beb5a7f21cc07d3961</id5>
+				<name>UUUU_FIXUPSET_DEF_NAME</name>
+				<comment>UUUU_FIXUPSET_DEF_NAME</comment>
+				<flags edit="1" visible="1" dict="1"></flags>
+				<fixups>
+					<fixup>F88789eac4bec9d445eca7e4bdb372b8b</fixup>
+					<fixup>F74c0d0924648c6a9c6132e308cd6c390</fixup>
+					<fixup>Fb02d575ca2f2bca44575949fd1e0791e</fixup>
+				</fixups>
+			</fixupset>
+		</fixupsets>
+		<actions>
+		</actions>
+		<quickfixes>
+		</quickfixes>
+		<profiles>
+			<profile>
+				<id1>P07ea50de5828036fd0d7dcf0c70b5b5b</id1>
+				<id2>P4c20708d63a328d180435e47483a41c9</id2>
+				<id3>89f611adb85596182f056c38277c33a3</id3>
+				<id4>020c8013ed6958e4e054126e1d36d620</id4>
+				<id5>P2ac1571ee7f17ef586fcfc8f905d321d</id5>
+				<name>【自動トンボ】トンボ類を消去</name>
+				<comment>トンボその他の情報を削除し、裁ち落としサイズにページをトリミングします。</comment>
+				<flags edit="0" visible="1"></flags>
+				<metalist>
+					<metadata>
+						<metakey>author</metakey>
+						<metavalue>shock tm</metavalue>
+					</metadata>
+				</metalist>
+				<creation>D:20221227004919+09&apos;00&apos;</creation>
+				<modification>D:20230501102917+09&apos;00&apos;</modification>
+				<aar_template></aar_template>
+				<pdfstd>
+					<pdfx convert="0"></pdfx>
+					<pdfa convert="0"></pdfa>
+					<pdfe convert="0"></pdfe>
+					<outcond>Coated FOGRA39</outcond>
+					<trapped>0</trapped>
+					<oioptions>0</oioptions>
+				</pdfstd>
+				<pdfstdemb>
+					<pdfx convert="0"></pdfx>
+					<pdfa convert="0"></pdfa>
+					<pdfe convert="0"></pdfe>
+					<outcond>Coated FOGRA39</outcond>
+					<trapped>0</trapped>
+					<oioptions>0</oioptions>
+					<afrelationship set_relationship="0"></afrelationship>
+				</pdfstdemb>
+				<wizard>
+				</wizard>
+				<rulesets>
+				</rulesets>
+				<fixupsets>
+					<fixupset>Ua806691f791544e837308dcb35e11076</fixupset>
+				</fixupsets>
+			</profile>
+		</profiles>
+		<metaprofs>
+		</metaprofs>
+		<profgroups>
+		</profgroups>
+	</package>
+</pdfpreflight>

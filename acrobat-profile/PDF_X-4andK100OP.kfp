@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdfpreflight version="16.0">
+	<package>
+		<id3>0bd53bb86c1268d964824e9ddceec97e</id3>
+		<pdfxoutintentlist>
+		</pdfxoutintentlist>
+		<iccprofilelist>
+		</iccprofilelist>
+		<ccpolicies>
+		</ccpolicies>
+		<occdsetups>
+		</occdsetups>
+		<curves>
+		</curves>
+		<fspolicies>
+		</fspolicies>
+		<resources>
+		</resources>
+		<variables>
+		</variables>
+		<conditions>
+			<condition>
+				<id1>Ca85f747a2b1e97365730cde755c0f997</id1>
+				<id2>Cd47356fbc3890e5ac13d2c079dcc9487</id2>
+				<id3>83ec63da451e1f218417bcad01ba5b02</id3>
+				<id4>81d1be6655f7de2a74e2e88b8ed3a06c</id4>
+				<id5>Cd47356fbc3890e5ac13d2c079dcc9487</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSTEXT</group>
+					<token>CSTEXT::Textsize</token>
+					<operator>OP::greater_or_equal</operator>
+					<data>
+						<num>
+							<value>15</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>Ce593e97f45eebe384efdcbe51b8b0bc7</id1>
+				<id2>C1a98fed883998bcec2898b2cd2d3f747</id2>
+				<id3>951231032381c79f44f541a9567e89a6</id3>
+				<id4>dacebd4ec1c3d2ee229db3ec0e13a184</id4>
+				<id5>C1a98fed883998bcec2898b2cd2d3f747</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSCOLOR</group>
+					<token>CSCOLOR::ObjectIs100_Black</token>
+					<operator>OP::is_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>Cedec78dbbfc07b53e9bae8f4b38eaa7d</id1>
+				<id2>Cc7a1b54c9b000e935c7453bf425a522c</id2>
+				<id3>62e72543b705e49b2e31f027b3ab392f</id3>
+				<id4>2becf4f2ff69bc97070d58523d564fd3</id4>
+				<id5>Cc7a1b54c9b000e935c7453bf425a522c</id5>
+				<name>CC_ObjectIsWhite</name>
+				<comment>CC_ObjectIsWhite</comment>
+				<flags user_units="1" edit="1" visible="1" dict="1"></flags>
+				<atom>
+					<group>Group::CSCOLOR</group>
+					<token>CSCOLOR::ObjectIsWhite</token>
+					<operator>OP::is_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C54757bd5e1a7a81a757043a38831f61e</id1>
+				<id2>C88b69f226f026ea12fa8f575237fd38d</id2>
+				<id3>13cbdbda88594c56cee4353b866f3321</id3>
+				<id4>d8ecf516bf63085c109ba399a0b5bf8b</id4>
+				<id5>C88b69f226f026ea12fa8f575237fd38d</id5>
+				<name>CC_StrokedObjectNotSetToKnockOut</name>
+				<comment>CC_StrokedObjectNotSetToKnockOut</comment>
+				<flags user_units="1" edit="1" visible="1" dict="1"></flags>
+				<atom>
+					<group>Group::CSGST_S</group>
+					<token>CSGST_S::isOverPrintEnabledStroke</token>
+					<operator>OP::is_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C7a950de4de55ae1720ca853b40c62ea3</id1>
+				<id2>C689273266c62eec1b9ee8d6945415249</id2>
+				<id3>180157d5e16a3e4098ce6eacfbb64971</id3>
+				<id4>7f53f43d36d6a9691276ccac9346892d</id4>
+				<id5>C689273266c62eec1b9ee8d6945415249</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CONTSTM</group>
+					<token>CONTSTM::IsText</token>
+					<operator>OP::is_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>Cac869e600ea4bf770ca1c3e78965bab2</id1>
+				<id2>Cf740c60329cbc2fa2586cfba0f8f2309</id2>
+				<id3>bd7776e30fa2e1421b4a40a617bc6d55</id3>
+				<id4>efcf3e151f304a8655b21d8f5638f802</id4>
+				<id5>Cf740c60329cbc2fa2586cfba0f8f2309</id5>
+				<name>CC_FilledObjectNotSetToKnockOut</name>
+				<comment>CC_FilledObjectNotSetToKnockOut</comment>
+				<flags user_units="1" edit="1" visible="1" dict="1"></flags>
+				<atom>
+					<group>Group::CSGST_F</group>
+					<token>CSGST_F::isOverPrintEnabledFill</token>
+					<operator>OP::is_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C91e675685096cdaf3ab54b7d096bf8dd</id1>
+				<id2>C22361b9f0a9a4aaeea854c1cad8fa2a5</id2>
+				<id3>ade5aac6ed7b16230b73588d6be0a27f</id3>
+				<id4>e4ea6c2ac0867f7600bc27a260a4617d</id4>
+				<id5>C22361b9f0a9a4aaeea854c1cad8fa2a5</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CONTSTM</group>
+					<token>CONTSTM::IsText</token>
+					<operator>OP::is_not_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C9fb35f81fdbf031df14bc3838e4ee823</id1>
+				<id2>C1c4f0183cb4bf74788a620eb93231239</id2>
+				<id3>f8ddd8766a52f322d13b6b1a1fc2d833</id3>
+				<id4>cbd8497d5410d3ba134111ea092bd6e0</id4>
+				<id5>C1c4f0183cb4bf74788a620eb93231239</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSCOLOR</group>
+					<token>CSCOLOR::ObjectUsesCMYKOnly_noSpotColo</token>
+					<operator>OP::is_not_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>Ca7e72692f25887f418e63098a8210bc6</id1>
+				<id2>Ced574cf0b5f1833c3a34cd11f35f1a19</id2>
+				<id3>c8e9aa3fb33578a8405a59883dc065a6</id3>
+				<id4>a4bbd77a9f19b59f4f65cb9da0f44d40</id4>
+				<id5>Ced574cf0b5f1833c3a34cd11f35f1a19</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CONTSTM</group>
+					<token>CONTSTM::IsImage</token>
+					<operator>OP::is_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C56c14752fb06430d94aaa305dd415622</id1>
+				<id2>Ce428c705445a6607f834c1f5f925b80b</id2>
+				<id3>13a6faa2f3e699293651127ffb6fdc1a</id3>
+				<id4>2cb5cfec078800299932eb39d2cc5b07</id4>
+				<id5>Ce428c705445a6607f834c1f5f925b80b</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSCOLOR</group>
+					<token>CSCOLOR::ObjectIs100_Black</token>
+					<operator>OP::is_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C5d7f177f8f69e9a93275b36f92734e36</id1>
+				<id2>Ce4816a749599b3cff5b6706b13da8cb1</id2>
+				<id3>3284404d3a7c4f06517b3be563bac433</id3>
+				<id4>0b5b7a4752d54ddd7286e4eb61ea3f30</id4>
+				<id5>Ce4816a749599b3cff5b6706b13da8cb1</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSGST_S</group>
+					<token>CSGST_S::StrokePathObjIsSolidLine</token>
+					<operator>OP::is_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C09f933b7fd0500fdd393b015c33b9cba</id1>
+				<id2>Ca47a8d7551c5c7e5c4a5987b22cc3d42</id2>
+				<id3>286ff9cda793fbb18510c168542ec743</id3>
+				<id4>2c93f8534e2c249349cf297c8c5f30af</id4>
+				<id5>Ca47a8d7551c5c7e5c4a5987b22cc3d42</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSGST_S</group>
+					<token>CSGST_S::LineWidth</token>
+					<operator>OP::greater</operator>
+					<data>
+						<num>
+							<value>12</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C77b9c5b766c6b9d2824492e1e88092b3</id1>
+				<id2>C4fb8b3516e2746bc1a998b5a9da1a02d</id2>
+				<id3>6774837e0989988ea0f16d8b6a1d55c3</id3>
+				<id4>6b38903897fcc45b2015645a107aaee9</id4>
+				<id5>C4fb8b3516e2746bc1a998b5a9da1a02d</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSCOLOR</group>
+					<token>CSCOLOR::ObjectIs100_Black</token>
+					<operator>OP::is_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C4126b61f9cd7fbcabff129de09a9074d</id1>
+				<id2>C8076279e476356a527202b4752576d30</id2>
+				<id3>749100d14d392f995ce8d625ac97387e</id3>
+				<id4>7dded3f13356c7fd53a4da740895dce3</id4>
+				<id5>C8076279e476356a527202b4752576d30</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CONTSTM</group>
+					<token>CONTSTM::SizeOfFilledVecObj</token>
+					<operator>OP::is_higher_or_wider</operator>
+					<data>
+						<rect>
+							<width>15mm</width>
+							<height>15mm</height>
+							<tolerance>0mm</tolerance>
+							<ignore>1</ignore>
+						</rect>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C036c647309598d9ee75613200d10a8aa</id1>
+				<id2>C9fa26ef8ef7b9b69c107fbb63e62bcea</id2>
+				<id3>0e5092ead0db50ee5cc74b3e1d045299</id3>
+				<id4>901958e1cebbb07f1b1cfa90cc726df8</id4>
+				<id5>C9fa26ef8ef7b9b69c107fbb63e62bcea</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CONTSTM</group>
+					<token>CONTSTM::IsFilledArea</token>
+					<operator>OP::is_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C8a7c9ecfaf85b549d9a7b23da73119b6</id1>
+				<id2>Cf81aa9f77e23937ab73a35df2a92a449</id2>
+				<id3>6f933f361f692dcb33bff6ef261fed69</id3>
+				<id4>ab1db2e8608bddc528264a1f8482bff2</id4>
+				<id5>Cf81aa9f77e23937ab73a35df2a92a449</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CONTSTM</group>
+					<token>CONTSTM::IsText</token>
+					<operator>OP::is_not_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C4eb537ee5a0244082859f45f824b5fa6</id1>
+				<id2>C04f0da7816b8792861a387fddb73c5f8</id2>
+				<id3>a86838c8d77dab0c6b49b4438f756dcd</id3>
+				<id4>0e3c8390775aeeaed8fe358704ac6969</id4>
+				<id5>C04f0da7816b8792861a387fddb73c5f8</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSTEXT</group>
+					<token>CSTEXT::Textsize</token>
+					<operator>OP::less_or_equal</operator>
+					<data>
+						<num>
+							<value>14</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>Cf875b830c632ff53360a1f2890126241</id1>
+				<id2>C1222b8e335878f9e1648fb3a61999f85</id2>
+				<id3>c07e2eb0f00c0f56545753350ca92bf3</id3>
+				<id4>7e662bc7b07c8d319e70a296a285975e</id4>
+				<id5>C1222b8e335878f9e1648fb3a61999f85</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSCOLOR</group>
+					<token>CSCOLOR::ObjectUsesBlackWithAPercenOf</token>
+					<operator>OP::equal</operator>
+					<data>
+						<num>
+							<value>100</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C78e4cdc08bfa217266b1b437fe585f58</id1>
+				<id2>Ce768d84b8bbf706330f833fc9242dce4</id2>
+				<id3>df4da16d2f91ada2e9a192c625926f64</id3>
+				<id4>51a395df06b91e38c9e035b92b584a16</id4>
+				<id5>Ce768d84b8bbf706330f833fc9242dce4</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSGST_F</group>
+					<token>CSGST_F::MoreThanTwoPlatesNotZero</token>
+					<operator>OP::is_true</operator>
+					<data>
+						<text>
+							<value></value>
+						</text>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>Cc4eb993af76b3d171de60b38def75b04</id1>
+				<id2>C1e355ad5ea0fb80dc72fc3a372e7554f</id2>
+				<id3>23e7c3b38def8d6ec810ea3fba9d183e</id3>
+				<id4>9dd2fec6c1d7d2524854ecb712d7fa30</id4>
+				<id5>C1e355ad5ea0fb80dc72fc3a372e7554f</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSTEXT</group>
+					<token>CSTEXT::Textsize</token>
+					<operator>OP::less_or_equal</operator>
+					<data>
+						<num>
+							<value>14</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C00fec27f3e1215eec277026997ed1788</id1>
+				<id2>C3e062a8af54a714706b5f2284b0d0080</id2>
+				<id3>e34c7fcbec0effe543ff6430a4452755</id3>
+				<id4>7370cb8303f71385ada5b12fdf20446c</id4>
+				<id5>C3e062a8af54a714706b5f2284b0d0080</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSCOLOR</group>
+					<token>CSCOLOR::ObjectUsesBlackWithAPercenOf</token>
+					<operator>OP::equal</operator>
+					<data>
+						<num>
+							<value>99</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>Cd8a1e3f0250d979dc49effc1354c4c46</id1>
+				<id2>C059b4b81a5ddbb0ffb20ca35a61d6fba</id2>
+				<id3>9b1a66899b88e964de2352b67e361dad</id3>
+				<id4>4bb72781d26cbb2e0eb40a3d242ce1c4</id4>
+				<id5>C059b4b81a5ddbb0ffb20ca35a61d6fba</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSGST_F</group>
+					<token>CSGST_F::TotalAmountOfInk</token>
+					<operator>OP::equal</operator>
+					<data>
+						<num>
+							<value>99</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C64ec0ede380fa5098afe557ffb0ec961</id1>
+				<id2>Caf037e9c2756b77b24c2c8e60d939453</id2>
+				<id3>141828761ca303be316cf3a5e5136c5f</id3>
+				<id4>9c01fa85df6f7bc491a87d2f82acef9d</id4>
+				<id5>Caf037e9c2756b77b24c2c8e60d939453</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSTEXT</group>
+					<token>CSTEXT::Textsize</token>
+					<operator>OP::less_or_equal</operator>
+					<data>
+						<num>
+							<value>14</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C2feb8e5b47bf917abcbb259c563cde21</id1>
+				<id2>Cce442a981489a1f95154c98c8bc3f08b</id2>
+				<id3>3313a6bc73ad6e11b945f25203d0e3b5</id3>
+				<id4>90249565903625d5eac675baccbb6989</id4>
+				<id5>Cce442a981489a1f95154c98c8bc3f08b</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSCOLOR</group>
+					<token>CSCOLOR::ObjectUsesBlackWithAPercenOf</token>
+					<operator>OP::greater_or_equal</operator>
+					<data>
+						<num>
+							<value>50</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>Cf0016f95899f89a87563a2b2cb78e83a</id1>
+				<id2>C4be42f5db6ce00e689bfad40b33a4f98</id2>
+				<id3>4a4cba43b337256a877cc2fb61351e2f</id3>
+				<id4>643873c2c530246071124dec2bf4b06a</id4>
+				<id5>C4be42f5db6ce00e689bfad40b33a4f98</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSCOLOR</group>
+					<token>CSCOLOR::ObjectUsesCyanWithAPercenOf</token>
+					<operator>OP::greater_or_equal</operator>
+					<data>
+						<num>
+							<value>50</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C3a3d01cc119b93ecb431823b055459ce</id1>
+				<id2>C8e08920a209c68acbe0d545c56e90fd3</id2>
+				<id3>d6d1dd0bdf4911a08291af51909f476d</id3>
+				<id4>91b40ba47c8134b92f4accc752fd509a</id4>
+				<id5>C8e08920a209c68acbe0d545c56e90fd3</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSCOLOR</group>
+					<token>CSCOLOR::ObjectUsesMagentWithAPercenOf</token>
+					<operator>OP::greater_or_equal</operator>
+					<data>
+						<num>
+							<value>50</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+			<condition>
+				<id1>C5384be716f2e3d3d5d35999e20587b97</id1>
+				<id2>Cff96f2bc5389d9db76e4cde1c68cd93f</id2>
+				<id3>dbf7846719cce9ff946916498d48f438</id3>
+				<id4>f252a6d4cec2cf2abbff64676b49a877</id4>
+				<id5>Cff96f2bc5389d9db76e4cde1c68cd93f</id5>
+				<name></name>
+				<comment></comment>
+				<flags user_units="1" edit="1" visible="1"></flags>
+				<atom>
+					<group>Group::CSCOLOR</group>
+					<token>CSCOLOR::ObjectUsesYellowWithAPercenOf</token>
+					<operator>OP::greater_or_equal</operator>
+					<data>
+						<num>
+							<value>50</value>
+							<tolerance></tolerance>
+						</num>
+					</data>
+				</atom>
+			</condition>
+		</conditions>
+		<rules>
+			<rule>
+				<id1>R307edf3333ed8c49c5efab95211dc207</id1>
+				<id2>Rcd20e810b10bcfbad6222615f4d7ad09</id2>
+				<id3>64a3dfb177b3c25218d3644402f92d62</id3>
+				<id4>fa4fe28beb0b52414fabcdb3463210ce</id4>
+				<id5>R4084be2d4f5705dd231d06d026db0d47</id5>
+				<name>サイズ15pt以上でK100のテキストオブジェクト</name>
+				<comment>K100のオブジェクトは製版工程で強制的にオーバープリントします。特にフチのある黒文字に要注意！</comment>
+				<flags analysis="17" condition_logic="0" ignore_objects="4" edit="1" visible="1"></flags>
+				<creation>D:20200428042415+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<report_no_match></report_no_match>
+				<conditions>
+					<condition>Ca85f747a2b1e97365730cde755c0f997</condition>
+					<condition>Ce593e97f45eebe384efdcbe51b8b0bc7</condition>
+				</conditions>
+			</rule>
+			<rule>
+				<id1>R5aa16c97494c86129a7699f520ae0422</id1>
+				<id2>R665d5c0cf6594329236d8cf8c9ce0250</id2>
+				<id3>ffa95dbf85795d6ba676b7360ec0857b</id3>
+				<id4>c0b550787a570045b197e43ac8d9ca93</id4>
+				<id5>R665d5c0cf6594329236d8cf8c9ce0250</id5>
+				<name>R_6_Whitetextisnotsettoknockoutstroked</name>
+				<comment>R_6_Whitetextisnotsettoknockoutstroked</comment>
+				<flags analysis="17" condition_logic="0" ignore_objects="2" edit="1" visible="1" dict="1"></flags>
+				<creation>D:20181205153932+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<report_no_match></report_no_match>
+				<conditions>
+					<condition>Cedec78dbbfc07b53e9bae8f4b38eaa7d</condition>
+					<condition>C54757bd5e1a7a81a757043a38831f61e</condition>
+					<condition>C7a950de4de55ae1720ca853b40c62ea3</condition>
+				</conditions>
+			</rule>
+			<rule>
+				<id1>Ra3200a484f391b2e0708ed95910b5686</id1>
+				<id2>R83c4a0f94215e845271022cf92abcdeb</id2>
+				<id3>80dbe2acd05011088ee998bf6b63bcde</id3>
+				<id4>353f8693706a62252d70425e2e9070c7</id4>
+				<id5>R83c4a0f94215e845271022cf92abcdeb</id5>
+				<name>R_6_Whitetextisnotsettoknockout</name>
+				<comment>R_6_Whitetextisnotsettoknockout</comment>
+				<flags analysis="17" condition_logic="0" ignore_objects="2" edit="1" visible="1" dict="1"></flags>
+				<creation>D:20181205153932+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<report_no_match></report_no_match>
+				<conditions>
+					<condition>Cedec78dbbfc07b53e9bae8f4b38eaa7d</condition>
+					<condition>Cac869e600ea4bf770ca1c3e78965bab2</condition>
+					<condition>C7a950de4de55ae1720ca853b40c62ea3</condition>
+				</conditions>
+			</rule>
+			<rule>
+				<id1>Rc4ff06db8da9ec47e8634bc4eba4df0d</id1>
+				<id2>Rfc661e86bd43442938fa43a090c5f1fb</id2>
+				<id3>2eee185efe339ffb05544261b6afbb48</id3>
+				<id4>0ca9c32f0f71969591dd2c167fea1136</id4>
+				<id5>Rfc661e86bd43442938fa43a090c5f1fb</id5>
+				<name>R_6_Whitevectorobjectisnotsettoknockoutstroked</name>
+				<comment>R_6_Whitevectorobjectisnotsettoknockoutstroked</comment>
+				<flags analysis="17" condition_logic="0" ignore_objects="2" edit="1" visible="1" dict="1"></flags>
+				<creation>D:20181205153932+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<report_no_match></report_no_match>
+				<conditions>
+					<condition>Cedec78dbbfc07b53e9bae8f4b38eaa7d</condition>
+					<condition>C54757bd5e1a7a81a757043a38831f61e</condition>
+					<condition>C91e675685096cdaf3ab54b7d096bf8dd</condition>
+				</conditions>
+			</rule>
+			<rule>
+				<id1>R9697bf2a464178d684c1f331ebac1301</id1>
+				<id2>Rad6cb5e9ff05ce0b6852189b39e3a896</id2>
+				<id3>d60da3c2a7d7fa3434da1c27bbcba5a8</id3>
+				<id4>5d193a60b7e56e905907dfa3ced2b5b9</id4>
+				<id5>Rad6cb5e9ff05ce0b6852189b39e3a896</id5>
+				<name>R_6_Whitevectorobjectisnotsettoknockout</name>
+				<comment>R_6_Whitevectorobjectisnotsettoknockout</comment>
+				<flags analysis="17" condition_logic="0" ignore_objects="2" edit="1" visible="1" dict="1"></flags>
+				<creation>D:20181205153932+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<report_no_match></report_no_match>
+				<conditions>
+					<condition>Cedec78dbbfc07b53e9bae8f4b38eaa7d</condition>
+					<condition>Cac869e600ea4bf770ca1c3e78965bab2</condition>
+					<condition>C91e675685096cdaf3ab54b7d096bf8dd</condition>
+				</conditions>
+			</rule>
+			<rule>
+				<id1>R24f8af0da046fe43a4370d88bc506876</id1>
+				<id2>Rca290f975ff071f32e6b05537d1ca977</id2>
+				<id3>761d03e630a82ed269ba4c4c1a76ac65</id3>
+				<id4>e22288881b25c98bbff38560dce2bef9</id4>
+				<id5>R53b6725136e284b5a42bacd949f38473</id5>
+				<name>画像は CMYK ではない</name>
+				<comment>CMYK以外の画像を検出。</comment>
+				<flags analysis="17" condition_logic="0" ignore_objects="0" edit="1" visible="1"></flags>
+				<creation>D:20190905044533+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<report_no_match></report_no_match>
+				<conditions>
+					<condition>C9fb35f81fdbf031df14bc3838e4ee823</condition>
+					<condition>Ca7e72692f25887f418e63098a8210bc6</condition>
+				</conditions>
+			</rule>
+			<rule>
+				<id1>R03faa2aafe682c66815a51d045198d6b</id1>
+				<id2>R57530c80887d775c398c9125c76a0a77</id2>
+				<id3>f9e2fa738ffea51f4852fbaf752e03a8</id3>
+				<id4>0364f4509f5e69b86d08342b69de7ace</id4>
+				<id5>R6ab4266e88d3251a213c8e42a63a786f</id5>
+				<name>太さ12pt以上でK100の線オブジェクト</name>
+				<comment>K100のオブジェクトは製版工程で強制的にオーバープリントします。&#10;線幅12pt以上を検知します。</comment>
+				<flags analysis="17" condition_logic="0" ignore_objects="0" edit="1" visible="1"></flags>
+				<creation>D:20200511051638+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<report_no_match></report_no_match>
+				<conditions>
+					<condition>C56c14752fb06430d94aaa305dd415622</condition>
+					<condition>C5d7f177f8f69e9a93275b36f92734e36</condition>
+					<condition>C09f933b7fd0500fdd393b015c33b9cba</condition>
+				</conditions>
+			</rule>
+			<rule>
+				<id1>R6ab2a3b804c8726a9dcd15df409ad44e</id1>
+				<id2>R61664190f9d42f5661f9b8add8fb5e51</id2>
+				<id3>0ef8bbd08a0afbc0515d7cb1234a21c9</id3>
+				<id4>ce0cfdfd5c8180d604361e053f664bec</id4>
+				<id5>R3a6f1f3a4605d5cd3ab699fc82272319</id5>
+				<name>15mm×15mm以上でK100のオブジェクト</name>
+				<comment>K100のオブジェクトは製版工程で強制的にオーバープリントします。&#10;15mm×15mm以上を検知します。</comment>
+				<flags analysis="17" condition_logic="0" ignore_objects="4" edit="1" visible="1"></flags>
+				<creation>D:20200511055009+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<report_no_match></report_no_match>
+				<conditions>
+					<condition>C77b9c5b766c6b9d2824492e1e88092b3</condition>
+					<condition>C4126b61f9cd7fbcabff129de09a9074d</condition>
+					<condition>C036c647309598d9ee75613200d10a8aa</condition>
+					<condition>C8a7c9ecfaf85b549d9a7b23da73119b6</condition>
+				</conditions>
+			</rule>
+			<rule>
+				<id1>R5b852fde4cef48d5f943e6ee2a053ecf</id1>
+				<id2>Rcd790ba2274c83469b9a69daef175a77</id2>
+				<id3>76a34542cf6d0e299f91bd16b0de9591</id3>
+				<id4>58750cd10ffcccbbac06a4786a2f9776</id4>
+				<id5>R2360f2112507327ef10a066c88486011</id5>
+				<name>サイズ14pt以下でK100+CMYのテキストオブジェクト（無用なオーバープリント回避）</name>
+				<comment>K100のオブジェクトは製版工程で強制的にオーバープリントします。特にフチのある黒文字に要注意！　を勘違いして全てのK100をC1M1Y1K100に設定する人がいます。傷つけないように優しく注意して下さい。</comment>
+				<flags analysis="17" condition_logic="0" ignore_objects="4" edit="1" visible="1"></flags>
+				<creation>D:20200520043106+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<report_no_match></report_no_match>
+				<conditions>
+					<condition>C4eb537ee5a0244082859f45f824b5fa6</condition>
+					<condition>Cf875b830c632ff53360a1f2890126241</condition>
+					<condition>C78e4cdc08bfa217266b1b437fe585f58</condition>
+				</conditions>
+			</rule>
+			<rule>
+				<id1>R936c9ca064b2fdceafba2a82df0d11ea</id1>
+				<id2>R33a3e3a0c2ae38dc9a282d6d6709dbc3</id2>
+				<id3>ea838d6a4aa30002e0592f9b7665ffc9</id3>
+				<id4>b158acd5438b4398f08847e5c805c537</id4>
+				<id5>R9fa8ca2d2b90accedec132b140b6f17b</id5>
+				<name>サイズ14pt以下でK99のテキストオブジェクト（無用なオーバープリント回避）</name>
+				<comment>K100のオブジェクトは製版工程で強制的にオーバープリントします。特にフチのある黒文字に要注意！　を勘違いして全てのK100をK99に設定する人がいます。傷つけないように優しく注意して下さい。</comment>
+				<flags analysis="17" condition_logic="0" ignore_objects="4" edit="1" visible="1"></flags>
+				<creation>D:20200520043354+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<report_no_match></report_no_match>
+				<conditions>
+					<condition>Cc4eb993af76b3d171de60b38def75b04</condition>
+					<condition>C00fec27f3e1215eec277026997ed1788</condition>
+					<condition>Cd8a1e3f0250d979dc49effc1354c4c46</condition>
+				</conditions>
+			</rule>
+			<rule>
+				<id1>R560fc4f780bc6f4f67f55b922a715630</id1>
+				<id2>R63e00cc35c3fd49ad737bc4d02dc56d8</id2>
+				<id3>8cf13ca6742b5bfd6f7d2641a96c187b</id3>
+				<id4>78582a6624840c02b0d4c553f3f0a417</id4>
+				<id5>R3785e81865e4efd52b6f49d99677e557</id5>
+				<name>サイズ14pt以下でグレーのテキストオブジェクト</name>
+				<comment>RGBモードからCMYKモードに変換時にCMYK混合色になっている場合があります。K100に指定し直しましょう！</comment>
+				<flags analysis="17" condition_logic="0" ignore_objects="4" edit="1" visible="1"></flags>
+				<creation>D:20200523051334+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<report_no_match></report_no_match>
+				<conditions>
+					<condition>C64ec0ede380fa5098afe557ffb0ec961</condition>
+					<condition>C2feb8e5b47bf917abcbb259c563cde21</condition>
+					<condition>Cf0016f95899f89a87563a2b2cb78e83a</condition>
+					<condition>C3a3d01cc119b93ecb431823b055459ce</condition>
+					<condition>C5384be716f2e3d3d5d35999e20587b97</condition>
+				</conditions>
+			</rule>
+		</rules>
+		<rulesets>
+			<ruleset>
+				<id1>S54e4abd55bbb2e6fc3751f1f296fb8ec</id1>
+				<id2>Sa62151f2d38a65c96f7525ac56e6b912</id2>
+				<id3>4ea4f9f074dd73789f292ea1187a67bd</id3>
+				<id4>4b3f837546d25acda2fb033fd07d864e</id4>
+				<id5>Sb0b3d15076fcd5acbb3f396a8d43296d</id5>
+				<name>SSS_RULESET_DEF_NAME</name>
+				<comment>SSS_RULESET_DEF_NAME</comment>
+				<flags edit="1" visible="1" dict="1"></flags>
+				<rules>
+					<rule check_severity="2" check_timing="2">R307edf3333ed8c49c5efab95211dc207</rule>
+					<rule check_severity="3" check_timing="2">R5aa16c97494c86129a7699f520ae0422</rule>
+					<rule check_severity="3" check_timing="2">Ra3200a484f391b2e0708ed95910b5686</rule>
+					<rule check_severity="3" check_timing="2">Rc4ff06db8da9ec47e8634bc4eba4df0d</rule>
+					<rule check_severity="3" check_timing="2">R9697bf2a464178d684c1f331ebac1301</rule>
+					<rule check_severity="3" check_timing="2">R24f8af0da046fe43a4370d88bc506876</rule>
+					<rule check_severity="2" check_timing="2">R03faa2aafe682c66815a51d045198d6b</rule>
+					<rule check_severity="2" check_timing="2">R6ab2a3b804c8726a9dcd15df409ad44e</rule>
+					<rule check_severity="2" check_timing="2">R5b852fde4cef48d5f943e6ee2a053ecf</rule>
+					<rule check_severity="2" check_timing="2">R936c9ca064b2fdceafba2a82df0d11ea</rule>
+					<rule check_severity="3" check_timing="2">R560fc4f780bc6f4f67f55b922a715630</rule>
+				</rules>
+			</ruleset>
+		</rulesets>
+		<fixups>
+			<fixup>
+				<id1>F9e93b5ae3c0cf972d97bc88cc24277cd</id1>
+				<id2>F163ba90b3f9a0aba4c9681d2377ffe97</id2>
+				<id3>f427b8a1eaa6a4c0d37ddb46aea4f22a</id3>
+				<id4>0c2f173c32bec9f4c574f42d1219ed7f</id4>
+				<id5>F30c964ac8453924a208d867a50611b46</id5>
+				<name>K100のオーバープリント（ベクトルとテキスト）</name>
+				<comment>K100のオブジェクトの場合は、一般的な印刷会社はオーバープリントに設定しています）</comment>
+				<flags user_units="1" scope="16" edit="1" visible="1"></flags>
+				<creation>D:20200518065851+09&apos;00&apos;</creation>
+				<modification>D:20200518084742+09&apos;00&apos;</modification>
+				<fcfgs>
+					<fcfg>
+						<ffeat>OverprintBlack</ffeat>
+						<fparams>
+							<fparam>Vector-Text</fparam>
+						</fparams>
+					</fcfg>
+				</fcfgs>
+				<reportFailed></reportFailed>
+			</fixup>
+		</fixups>
+		<fixupsets>
+			<fixupset>
+				<id1>U91e04c36c775c2e810f79b7ada8add3e</id1>
+				<id2>U95bd811815d3aa55df123f5aca80ea9f</id2>
+				<id3>de05ee1afc124b50551cbcbe1c0cc3a5</id3>
+				<id4>f3cca859fa9790f26077e9ff4364c636</id4>
+				<id5>Uc0710f1d54d377647d912476bf6eb56c</id5>
+				<name>UUUU_FIXUPSET_DEF_NAME</name>
+				<comment>UUUU_FIXUPSET_DEF_NAME</comment>
+				<flags edit="1" visible="1" dict="1"></flags>
+				<fixups>
+					<fixup>F9e93b5ae3c0cf972d97bc88cc24277cd</fixup>
+				</fixups>
+			</fixupset>
+		</fixupsets>
+		<actions>
+		</actions>
+		<profiles>
+			<profile>
+				<id1>P47cb02137f173594f1e6954a0866c38b</id1>
+				<id2>P0cc89fd3045311b47334e1b408f79330</id2>
+				<id3>a614fa1e0e1c06a82188a41d8b1b5ae8</id3>
+				<id4>08f7e8cd53581ffb01b1b3d219e7b901</id4>
+				<id5>P9bc3a42b2d8ae1bb875e2c4a78ae8528</id5>
+				<name>PDF/X-4とK100OPの確認（shock tm）v1.0.0</name>
+				<comment>＋現在の文書が PDF/X-4 に準拠しているかどうかを確認します。&#10;＋K100強制オーバープリントの怪しいオブジェクトを検出します。&#10;＋白のオーバープリント・グレーのテキスト・RGB画像も検出します。&#10;※フィックスアップすると別名で保存するので上書きしないよう気を付けてください。&#10;　全てのK100オブジェクトをオーバープリント設定にします。&#10;　オーバープリントは画面上では確認でき、対応したプリンターなら出力して再現できます。&#10;</comment>
+				<flags edit="0" visible="1"></flags>
+				<metalist>
+					<metadata>
+						<metakey>author</metakey>
+						<metavalue>shock tm</metavalue>
+					</metadata>
+				</metalist>
+				<creation>D:20200518045205+09&apos;00&apos;</creation>
+				<modification>D:20200523063612+09&apos;00&apos;</modification>
+				<pdfstd>
+					<pdfx convert="0"></pdfx>
+					<pdfa convert="0"></pdfa>
+					<pdfe convert="0"></pdfe>
+					<outcond>Coated FOGRA39</outcond>
+					<trapped>0</trapped>
+					<oioptions>0</oioptions>
+				</pdfstd>
+				<pdfstdemb>
+					<pdfx convert="0"></pdfx>
+					<pdfa convert="0"></pdfa>
+					<pdfe convert="0"></pdfe>
+					<outcond>Coated FOGRA39</outcond>
+					<trapped>0</trapped>
+					<oioptions>0</oioptions>
+					<afrelationship set_relationship="0"></afrelationship>
+				</pdfstdemb>
+				<wizard>
+					<check name="PRCWzDocu_SyntaxChecks" check_severity="0">
+					</check>
+					<check name="PRCWzColr_RGB" check_severity="0">
+					</check>
+					<check name="PRCWzXComp_PDFDocument" check_severity="0">
+						<data name="PDFX1A2001">0</data>
+						<data name="PDFX1A2003">0</data>
+						<data name="PDFX32002">0</data>
+						<data name="PDFX32003">0</data>
+						<data name="PDFX4">1</data>
+						<data name="PDFX4p">0</data>
+						<data name="PDFX5g">0</data>
+						<data name="PDFX5n">0</data>
+						<data name="PDFX5pg">0</data>
+						<data name="PDFX6">0</data>
+						<data name="PDFX6n">0</data>
+						<data name="PDFX6p">0</data>
+					</check>
+					<check name="PRCWzXCompEmb_PDFDocument" check_severity="0">
+						<data name="PDFX1A2001">0</data>
+						<data name="PDFX1A2003">0</data>
+						<data name="PDFX32002">0</data>
+						<data name="PDFX32003">0</data>
+						<data name="PDFX4">1</data>
+						<data name="PDFX4p">0</data>
+						<data name="PDFX5g">0</data>
+						<data name="PDFX5n">0</data>
+						<data name="PDFX5pg">0</data>
+						<data name="PDFX6">0</data>
+						<data name="PDFX6n">0</data>
+						<data name="PDFX6p">0</data>
+					</check>
+				</wizard>
+				<rulesets>
+					<ruleset>S54e4abd55bbb2e6fc3751f1f296fb8ec</ruleset>
+				</rulesets>
+				<fixupsets>
+					<fixupset>U91e04c36c775c2e810f79b7ada8add3e</fixupset>
+				</fixupsets>
+			</profile>
+		</profiles>
+		<metaprofs>
+		</metaprofs>
+		<profgroups>
+		</profgroups>
+	</package>
+</pdfpreflight>
