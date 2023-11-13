@@ -17,6 +17,8 @@ xml+='<version CCCS="CC2019" major="14">14 (CC2019)</version>\n';
 xml+='<version CCCS="CC2020" major="15">15 (CC2020)</version>\n';
 xml+='<version CCCS="CC2021" major="16">16 (CC2021)</version>\n';
 xml+='<version CCCS="CC2022" major="17">17 (CC2022)</version>\n';
+xml+='<version CCCS="CC2023" major="18">18 (CC2023)</version>\n';
+xml+='<version CCCS="CC2024" major="19">19 (CC2024)</version>\n';
 xml+='</IDSN>';
 documentsUpdate(xml,"");
 //フォルダ内のインデザインドキュメントを起動しているバージョンで新規保存する
