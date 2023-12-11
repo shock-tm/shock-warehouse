@@ -4,7 +4,7 @@ linkedText.jsx
 インデザインドキュメント内の全ページに指定サイズの連結テキストフレームを作成するスクリプト
 This script creates and connects specified text frames to all pages in an InDesign document.
 */
-app.doScript("linkedText()",ScriptLanguage.JAVASCRIPT,[],UndoModes.fastEntireScript);
+app.doScript(linkedText,ScriptLanguage.JAVASCRIPT,[],UndoModes.fastEntireScript);
 // テキストフレームを作成する関数
 function createTextFrame(page,x,y,width,height){
   var textFrame=page.textFrames.add();
@@ -13,7 +13,7 @@ function createTextFrame(page,x,y,width,height){
 };
 // ページをまたいでテキストフレームを連結する関数
 function linkTextFramesAcrossPages(textFrames){
-  for (var i=0;i<textFrames.length-1;i++){
+  for(var i=0;i<textFrames.length-1;i++){
     textFrames[i].nextTextFrame=textFrames[i+1];
   };
 };
