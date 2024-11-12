@@ -1,0 +1,66 @@
+body {
+    padding: 0 16px;
+}
+li:before {
+    content: '• ';
+    width: 3em;
+}
+#layers {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 16px;
+}
+h1{
+    color: var(--uxp-host-text-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+#layerIcon{
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    background-image: var(--layer-png);
+}
+#layerIcon:hover{
+    background-image: var(--layer-hover-png);
+}
+#layerIcon:active{
+    background-image: var(--layer-hover-png);
+}
+:root {
+    --uxp-host-font-size: 13px;
+    --uxp-host-font-size-smaller: 12px;
+    --uxp-host-font-size-larger: 14px;
+    --uxp-host-text-color: #ffffff;
+    --uxp-host-border-color: #454545;
+    --uxp-host-background-color: #535353;
+    --layer-png: url("layer/dark.png");
+    --layer-hover-png: url("layer/light.png");
+}
+@media (prefers-color-scheme: darkest) {
+    :root {
+        --uxp-host-text-color: #ffffff;
+        --uxp-host-border-color: #292929;
+        --uxp-host-background-color: #323232;
+        --layer-png: url("layer/dark.png");
+        --layer-hover-png: url("layer/light.png");
+    }
+}
+@media (prefers-color-scheme:light) {
+    :root {
+        --uxp-host-text-color: #424242;
+        --uxp-host-border-color: #9c9c9c;
+        --uxp-host-background-color: #b8b8b8;
+        --layer-png: url("layer/light.png");
+        --layer-hover-png: url("layer/dark.png");
+    }
+}
+@media (prefers-color-scheme: lightest) {
+    :root {
+        --uxp-host-text-color: #4b4b4b; 
+        --uxp-host-border-color: #d1d1d1;
+        --uxp-host-background-color: #f0f0f0;
+        --layer-png: url("layer/light.png");
+        --layer-hover-png: url("layer/dark.png");
+    }
+}

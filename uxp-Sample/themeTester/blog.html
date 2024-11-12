@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="main.js"></script> 
+    <link rel="stylesheet" href="style.css">  
+    <style>
+        body {
+            padding: 0 16px;
+        }
+        li:before {
+            content: '• ';
+            width: 3em;
+        }
+        #layers {
+            border: 1px solid #808080;
+            border-radius: 4px;
+            padding: 16px;
+        }
+        h1{
+            color: var(--uxp-host-text-color);
+            border: 10px solid var(--uxp-host-border-color);
+            background-color: var(--uxp-host-background-color);
+            border-radius: 10px;
+            padding: 10px;
+        }
+        :root {
+            --uxp-host-font-size: 13px;
+            --uxp-host-font-size-smaller: 12px;
+            --uxp-host-font-size-larger: 14px;
+            --uxp-host-text-color: #ffffff;
+            --uxp-host-border-color: #454545;
+            --uxp-host-background-color: #535353;
+            --vakata-background-color-1: #9ce4ff;
+            --vakata-background-color-2: #2fbfff;
+            --vakata-png: url("32px-dark.png");
+        }
+        @media (prefers-color-scheme: darkest) {
+            :root {
+                --uxp-host-text-color: #ffffff;
+                --uxp-host-border-color: #292929;
+                --uxp-host-background-color: #323232;
+                --vakata-background-color-1: #9ce4ff;
+                --vakata-background-color-2: #2fbfff;
+                --vakata-png: url("32px-dark.png");
+            }
+        }
+        @media (prefers-color-scheme:light) {
+            :root {
+                --uxp-host-text-color: #424242;
+                --uxp-host-border-color: #9c9c9c;
+                --uxp-host-background-color: #b8b8b8;
+                --vakata-background-color-1: #beebff;
+                --vakata-png: url("32px.png");
+            }
+        }
+        @media (prefers-color-scheme: lightest) {
+            :root {
+                --uxp-host-text-color: #4b4b4b; 
+                --uxp-host-border-color: #d1d1d1;
+                --uxp-host-background-color: #f0f0f0;
+                --vakata-background-color-1: #e7f4f9;
+                --vakata-background-color-2: #beebff;
+                --vakata-png: url("32px.png");
+            }
+        }
+    </style>
+</head>
+<body>
+  <h1>Layers</h1>
+  <sp-body id="layers">
+    No layers
+  </sp-body>
+  <footer>
+    <sp-button id="btnPopulate">Populate Layers</sp-button>
+  </footer>
+    <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-css/Media%20Queries/prefers-color-scheme/">link</a>
+</body>
+</html>
