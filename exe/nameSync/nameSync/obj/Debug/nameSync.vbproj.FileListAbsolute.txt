@@ -34,3 +34,15 @@ C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Debug\nameSync.vbproj.CoreCompi
 C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Debug\nameSync.exe
 C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Debug\nameSync.xml
 C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Debug\nameSync.pdb
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\bin\Debug\nameSync.exe.config
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\bin\Debug\nameSync.exe
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\bin\Debug\nameSync.pdb
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\bin\Debug\nameSync.xml
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\obj\Debug\nameSync.vbproj.AssemblyReference.cache
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\obj\Debug\nameSync.syncForm.resources
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\obj\Debug\nameSync.Resources.resources
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\obj\Debug\nameSync.vbproj.GenerateResource.cache
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\obj\Debug\nameSync.vbproj.CoreCompileInputs.cache
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\obj\Debug\nameSync.exe
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\obj\Debug\nameSync.xml
+D:\Repositories\shock-warehouse\exe\nameSync\nameSync\obj\Debug\nameSync.pdb

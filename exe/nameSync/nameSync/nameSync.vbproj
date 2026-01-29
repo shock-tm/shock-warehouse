@@ -73,9 +73,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="syncForm.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="syncForm.vb" />
     <Compile Include="syncForm.Designer.vb">
       <DependentUpon>syncForm.vb</DependentUpon>
       <SubType>Form</SubType>

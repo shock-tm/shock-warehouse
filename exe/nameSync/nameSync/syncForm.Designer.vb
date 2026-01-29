@@ -99,7 +99,7 @@ Partial Class syncForm
         Me.listCheck.Checked = True
         Me.listCheck.CheckState = System.Windows.Forms.CheckState.Checked
         Me.listCheck.Location = New System.Drawing.Point(657, 85)
-        Me.listCheck.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.listCheck.Margin = New System.Windows.Forms.Padding(4)
         Me.listCheck.Name = "listCheck"
         Me.listCheck.Size = New System.Drawing.Size(115, 19)
         Me.listCheck.TabIndex = 6

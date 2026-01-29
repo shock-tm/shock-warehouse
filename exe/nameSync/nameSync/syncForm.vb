@@ -28,8 +28,8 @@ Public Class syncForm
 
     '同期スタート
     Private Sub startButton_Click(sender As Object, e As EventArgs) Handles startButton.Click
-        Try
-            If Directory.Exists(backupPath.Text) = False Then
+        'Try
+        If Directory.Exists(backupPath.Text) = False Then
                 logList.Items.Add("フォルダを見つかりません - " & backupPath.Text)
                 Return
             End If
@@ -39,7 +39,7 @@ Public Class syncForm
             End If
             Dim logStr As String = ""
             If listCheck.Checked = True Then
-                logStr = "（ログ表示のみ）"
+                logStr = "（リスト表示のみ）"
             End If
             logList.Items.Add(Now.ToShortDateString & " " & Now.ToShortTimeString & " - ファイル名の同期スタート" & logStr)
             '元フォルダ先を辞書化
@@ -73,8 +73,8 @@ Public Class syncForm
                     Dim oldPath = Path.Combine(backupPath.Text, backFi.Name)
                     Dim newPath = Path.Combine(backupPath.Text, newFile.Name)
                     If File.Exists(newPath) = False Then
-                        logList.Items.Add(backFi.Name & "  ---->  " & newFile.Name)
-                        numbs = numbs + 1
+                    logList.Items.Add("NameChange : " & backFi.Name & "  ---->  " & newFile.Name)
+                    numbs = numbs + 1
                         If listCheck.Checked = False Then
                             Try
                                 File.Move(oldPath, newPath)
@@ -90,12 +90,28 @@ Public Class syncForm
                     deleteFlag = True
                 End If
 
-                If deleteFlag = True Then
+            If deleteFlag = True Then
+                If sourceDict.ContainsKey(key) Then
                     Dim newFile = sourceDict(key)
-                    'Dim hash1 As String = GetHash(oldPath)
-                    'Dim hash2 As String = GetHash(newPath)
-                    'If hash1 <> "" AndAlso hash2 <> "" AndAlso hash1 = hash2 Then
-                    logList.Items.Add(backFi.Name & "  ---->  delete - 同名ファイル：" & newFile.Name)
+                    Dim oldPath = Path.Combine(backupPath.Text, backFi.Name)
+                    Dim newPath = Path.Combine(backupPath.Text, newFile.Name)
+                    Dim hash1 As String = GetHash(oldPath)
+                    Dim hash2 As String = GetHash(newPath)
+                    If hash1 <> "" AndAlso hash2 <> "" AndAlso hash1 = hash2 Then
+                        logList.Items.Add("Delete : " & backFi.Name & "  ---->  同ファイル：" & newFile.Name)
+                        delInt = delInt + 1
+                        If listCheck.Checked = False Then
+                            Try
+                                File.Delete(backFile)
+                            Catch ex As Exception
+                                logList.Items.Add("Error : " & backFi.Name & "  ---->  delete")
+                                logList.Items.Add(ex.ToString)
+                            End Try
+
+                        End If
+                    End If
+                Else
+                    logList.Items.Add("Delete : " & backFi.Name)
                     delInt = delInt + 1
                     If listCheck.Checked = False Then
                         Try
@@ -106,9 +122,9 @@ Public Class syncForm
                         End Try
 
                     End If
-                    'End If
                 End If
-            Next
+            End If
+        Next
             If numbs <> 0 Then
                 logList.Items.Add(Now.ToShortDateString & " " & Now.ToShortTimeString & " - " & numbs & "個のファイル名を同期" & logStr)
             End If
@@ -117,10 +133,10 @@ Public Class syncForm
             End If
             logList.Items.Add(Now.ToShortDateString & " " & Now.ToShortTimeString & " - 処理終了" & logStr)
 
-        Catch ex As Exception
-            logList.Items.Add(Now.ToShortDateString & " " & Now.ToShortTimeString & " - エラー発生")
-            logList.Items.Add(ex.ToString)
-        End Try
+        'Catch ex As Exception
+        '    logList.Items.Add(Now.ToShortDateString & " " & Now.ToShortTimeString & " - エラー発生")
+        '    logList.Items.Add(ex.ToString)
+        'End Try
     End Sub
 
 

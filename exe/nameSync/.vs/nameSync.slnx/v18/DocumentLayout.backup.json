@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\m.hishiki\\Desktop\\nameSync\\",
+  "WorkspaceRootPath": "D:\\Repositories\\shock-warehouse\\exe\\nameSync\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83E96880-D555-432F-899A-38E8A955C387}|nameSync\\nameSync.vbproj|c:\\users\\m.hishiki\\desktop\\namesync\\namesync\\syncform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{83E96880-D555-432F-899A-38E8A955C387}|nameSync\\nameSync.vbproj|solutionrelative:namesync\\syncform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{83E96880-D555-432F-899A-38E8A955C387}|nameSync\\nameSync.vbproj|D:\\Repositories\\shock-warehouse\\exe\\nameSync\\namesync\\syncform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{83E96880-D555-432F-899A-38E8A955C387}|nameSync\\nameSync.vbproj|solutionrelative:namesync\\syncform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83E96880-D555-432F-899A-38E8A955C387}|nameSync\\nameSync.vbproj|C:\\Users\\m.hishiki\\Desktop\\nameSync\\namesync\\syncform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{83E96880-D555-432F-899A-38E8A955C387}|nameSync\\nameSync.vbproj|solutionrelative:namesync\\syncform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{83E96880-D555-432F-899A-38E8A955C387}|nameSync\\nameSync.vbproj|d:\\repositories\\shock-warehouse\\exe\\namesync\\namesync\\syncform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{83E96880-D555-432F-899A-38E8A955C387}|nameSync\\nameSync.vbproj|solutionrelative:namesync\\syncform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|nameSync||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
@@ -21,17 +21,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "syncForm.vb",
-              "DocumentMoniker": "C:\\Users\\m.hishiki\\Desktop\\nameSync\\nameSync\\syncForm.vb",
+              "DocumentMoniker": "D:\\Repositories\\shock-warehouse\\exe\\nameSync\\nameSync\\syncForm.vb",
               "RelativeDocumentMoniker": "nameSync\\syncForm.vb",
-              "ToolTip": "C:\\Users\\m.hishiki\\Desktop\\nameSync\\nameSync\\syncForm.vb",
+              "ToolTip": "D:\\Repositories\\shock-warehouse\\exe\\nameSync\\nameSync\\syncForm.vb",
               "RelativeToolTip": "nameSync\\syncForm.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAmwGQAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-01-29T01:58:58.745Z",
               "EditorCaption": ""
@@ -40,23 +40,24 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "nameSync",
-              "DocumentMoniker": "C:\\Users\\m.hishiki\\Desktop\\nameSync\\nameSync\\nameSync.vbproj",
+              "DocumentMoniker": "D:\\Repositories\\shock-warehouse\\exe\\nameSync\\nameSync\\nameSync.vbproj",
               "RelativeDocumentMoniker": "nameSync\\nameSync.vbproj",
-              "ToolTip": "C:\\Users\\m.hishiki\\Desktop\\nameSync\\nameSync\\nameSync.vbproj",
+              "ToolTip": "D:\\Repositories\\shock-warehouse\\exe\\nameSync\\nameSync\\nameSync.vbproj",
               "RelativeToolTip": "nameSync\\nameSync.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-01-28T02:44:18.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "syncForm.vb [\u30C7\u30B6\u30A4\u30F3]",
-              "DocumentMoniker": "C:\\Users\\m.hishiki\\Desktop\\nameSync\\nameSync\\syncForm.vb",
+              "DocumentMoniker": "D:\\Repositories\\shock-warehouse\\exe\\nameSync\\nameSync\\syncForm.vb",
               "RelativeDocumentMoniker": "nameSync\\syncForm.vb",
-              "ToolTip": "C:\\Users\\m.hishiki\\Desktop\\nameSync\\nameSync\\syncForm.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "ToolTip": "D:\\Repositories\\shock-warehouse\\exe\\nameSync\\nameSync\\syncForm.vb [\u30C7\u30B6\u30A4\u30F3]",
               "RelativeToolTip": "nameSync\\syncForm.vb [\u30C7\u30B6\u30A4\u30F3]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-22T06:58:17.151Z"
+              "WhenOpened": "2026-01-22T06:58:17.151Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
             }
           ]
         }
