@@ -1,0 +1,12 @@
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\bin\Release\nameSync.exe.config
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\bin\Release\nameSync.exe
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\bin\Release\nameSync.pdb
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\bin\Release\nameSync.xml
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Release\nameSync.vbproj.AssemblyReference.cache
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Release\nameSync.syncForm.resources
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Release\nameSync.Resources.resources
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Release\nameSync.vbproj.GenerateResource.cache
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Release\nameSync.vbproj.CoreCompileInputs.cache
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Release\nameSync.exe
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Release\nameSync.xml
+C:\Users\m.hishiki\Desktop\nameSync\nameSync\obj\Release\nameSync.pdb
