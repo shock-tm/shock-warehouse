@@ -11,7 +11,7 @@ https://adodtp.com/
 「missingPluginDataDelete」は環境にないプラグインデータを削除するプラグインです。
 
 ### Compatible apps
-InDesign 2025(20) - 2026(21)  
+InDesign 2025 - 2026 (20 - 21)  
 Windows only
 
 ### Install
